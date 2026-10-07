@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For My Dreamie ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- OPENING GATE -->
+<section id="gate">
+  <canvas id="sky"></canvas>
+  <div class="gate-inner">
+    <h1 class="script g1">Hey, My dear baby ji... ❤️</h1>
+    <p class="g2">I made something special for you.</p>
+    <p class="g3">Something from my heart,<br>just for you.</p>
+    <button id="openHeart" class="btn g4"><span class="beat">❤️</span> Open My Heart</button>
+  </div>
+</section>
+
+<main id="main" hidden>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="ui">HAPPY 5 MONTHS</p>
+  <h1 class="script big">Meri Jaan ❤️</h1>
+  <p class="lead">5 months with you, and you have become my favorite person and my perfect little paradise.</p>
+  <figure class="hero-photo ph"><img src="images/couple1.png" alt="Us" onerror="this.remove()"></figure>
+  <p class="ui small">05 MONTHS • ONE BEAUTIFUL STORY • ONE LOVE ♾️</p>
+  <p class="hint">Scroll slowly, baby ji...<br>there's a little piece of my heart waiting for you.</p>
+</section>
+
+<section class="cine" data-lines="Then...|We met.|Then...|We talked.|Then...|We got closer.|Then...|We became US."></section>
+
+<!-- STORY -->
+<section class="story" id="story">
+  <h2 class="script">Where Our Story Began ❤️</h2>
+  <div class="date" id="confDate">07-05-2026</div>
+  <p class="lead">The day my heart found you.</p>
+  <p class="letter-text">I still remember the day I finally told you what was in my heart.<br><br>I didn't know that one confession would become five months of memories, late-night conversations, smiles, missing you, understanding each other, and falling for you a little more every day.</p>
+  <p class="lead">That day wasn't just a date.<br>It was the beginning of US. ❤️</p>
+  <ol class="timeline" id="timeline"></ol>
+</section>
+
+<!-- COUNTER -->
+<section class="counter">
+  <h2 class="script">Together for...</h2>
+  <div class="count-grid" id="counter"></div>
+  <p class="lead">And every second is another second I get to call you mine. ❤️</p>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery">
+  <h2 class="script">Our Little Moments</h2>
+  <div class="polaroids" id="polaroids"></div>
+</section>
+
+<!-- REASONS -->
+<section class="reasons">
+  <h2 class="script">5 Reasons I'm Thankful For You ❤️</h2>
+  <p class="lead">Five months. Five little reasons. A million feelings.</p>
+  <div id="cards"></div>
+  <p class="lead hidden-end" id="reasonsEnd">These are only five reasons...<br>...I could write a thousand more. ❤️</p>
+</section>
+
+<!-- HER PHOTO -->
+<section class="her">
+  <div class="kb ph"><img src="images/cover.png" alt="My Dreamie" onerror="this.remove()"></div>
+  <div class="her-text">
+    <h2 class="script">Look at you... ❤️</h2>
+    <p>My beautiful Dreamie.<br>My favorite smile.<br>My perfect little paradise.</p>
+    <p class="small-i">I hope you always remember how beautiful you are to me.</p>
+  </div>
+</section>
+
+<!-- LONG DISTANCE -->
+<section class="night distance">
+  <div class="pair"><span>YOU ❤️</span><i class="line"></i><span>ME ❤️</span></div>
+  <div class="seq" data-lines="Miles apart...|But never apart in heart.|You are there. I am here. But somehow... we still share the same little world.|Distance is only between our locations, never between our hearts. ❤️"></div>
+</section>
+
+<!-- HEARTBEAT -->
+<section class="heartbeat">
+  <button id="bigHeart" class="bigheart" aria-label="Tap the heart">❤️</button>
+  <p class="lead" id="beatMsg">Tap my heart</p>
+</section>
+
+<!-- UNIVERSE -->
+<section class="night universe">
+  <h2 class="script">Our Little Universe 🌙</h2>
+  <p class="lead">Somewhere under the same sky, there's a girl who has my whole heart.</p>
+  <div class="stars" id="stars"></div>
+  <p class="lead" id="starMsg">Tap a star ✨</p>
+  <p class="lead">Maybe we're miles apart... but we're still looking at the same moon. 🌙❤️</p>
+</section>
+
+<!-- SONG -->
+<!-- <section class="song">
+  <h2 class="script">Our Little Song 🎵</h2>
+  <div class="vinyl" id="vinyl1"></div>
+  <div class="wave" id="wave1"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <button class="btn" id="songBtn">Play Our Song ❤️</button>
+  <p class="lead">Whenever I hear this, a little part of me thinks of you.</p>
+</section> -->
+
+<!-- LETTER -->
+<section class="letter-sec">
+  <p class="lead">💌 There's one more thing I want to tell you...</p>
+  <div class="envelope" id="envelope">
+    <div class="flap"></div>
+    <div class="paper" id="paper"></div>
+    <div class="pocket"></div>
+  </div>
+  <button class="btn" id="letterBtn">Open My Letter ❤️</button>
+</section>
+
+<!-- PROMISES -->
+<section class="promises">
+  <h2 class="script">5 Little Promises To You ❤️</h2>
+  <ul id="promiseList"></ul>
+  <p class="lead">5 months down...<br>...and countless more to go. ♾️</p>
+</section>
+
+<!-- GIFTS -->
+<section class="gifts">
+  <h2 class="script">Five Little Gifts 🎁</h2>
+  <div id="giftRow"></div>
+  <p class="gift-msg" id="giftMsg"></p>
+</section>
+
+<!-- CHECKLIST -->
+<section class="todo">
+  <h2 class="script">Things I Still Want To Do With You ❤️</h2>
+  <ul id="todoList"></ul>
+  <p class="lead">And so many more... ❤️</p>
+</section>
+
+<!-- HUG -->
+<section class="hug">
+  <div class="hug-stage"><span class="hh l">❤️</span><span class="hh r">❤️</span></div>
+  <button class="btn" id="hugBtn">Send Me a Hug 🤗</button>
+  <p class="lead" id="hugMsg"></p>
+</section>
+
+<!-- MISS ME -->
+<section class="miss">
+  <button class="btn" id="missBtn">Missing Me? 🥺❤️</button>
+  <p class="lead" id="missMsg"></p>
+</section>
+
+<!-- VOICE -->
+<!-- <section class="voice">
+  <h2 class="script">Something I Want You To Hear From Me ❤️</h2>
+  <div class="wave" id="wave2"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <button class="btn" id="voiceBtn">Play My Voice 🎙️</button>
+</section> -->
+
+<!-- FUTURE LETTER -->
+<section class="future-letter">
+  <h2 class="script">Open This When We're Older ❤️</h2>
+  <button class="btn" id="futureBtn">Open Our Future Letter</button>
+  <div class="paper open-paper" id="futurePaper" hidden>
+    <p>Dear Future Us,</p>
+    <p>If you're reading this together, I hope you remember the two people we were today.</p>
+    <p>Five months in.<br>Miles apart.<br>Still choosing each other.</p>
+    <p>I hope you remember how badly we wanted the day when distance wouldn't matter anymore.</p>
+    <p>And if you're sitting next to each other while reading this... please smile.</p>
+    <p>Because we made it. ❤️</p>
+  </div>
+</section>
+
+<!-- FUTURE -->
+<section class="night future">
+  <div class="seq" data-lines="One day...|We won't have to say 'I miss you' through a screen.|We won't have to count the days until we meet.|We won't have to wish for one more hour together.|One day...|We'll just be together.|*Someday, this distance will become just a memory. ❤️|Until then, I'll keep choosing you."></div>
+</section>
+
+<!-- FINAL MESSAGE -->
+<section class="night final">
+  <div class="glow-heart">❤️</div>
+  <div class="seq slow" data-lines="Before you leave...|I have one last thing to say.|*I LOVE YOU.|Happy 5 Months, My Jaan Annu. ❤️|Thank you for becoming my favorite person, my comfort, my happiness, and my perfect little paradise.|Here's to us.|Here's to our memories.|Here's to our future.|Here's to forever.|❤️ ♾️"></div>
+</section>
+
+<!-- LAST SURPRISE -->
+<section class="surprise">
+  <p class="lead">You made it to the end... ❤️</p>
+  <p class="lead">But wait...</p>
+  <button class="btn" id="surpriseBtn">One More Surprise ❤️</button>
+  <div class="reveal" id="reveal" hidden>
+    <figure class="final-photo ph"><img src="images/final-photo.jpg" alt="Us" onerror="this.remove()"></figure>
+    <p class="script big">Us. ❤️</p>
+    <p class="lead">To be continued...</p>
+    <p class="lead">5 months is only the beginning. ♾️</p>
+  </div>
+</section>
+
+<footer>
+  <p class="script big">5 months completed.</p>
+  <p class="lead">A lifetime of memories to go.<br><br>Happy 5 Months, My Dreamie.<br>I love you. ❤️♾️</p>
+  <p class="small-i">Made with love, patience, and a little piece of my heart — just for you. ❤️</p>
+  <span class="secret-final" id="finalSecret" role="button" aria-label="heart">♡</span>
+</footer>
+</main>
+
+<!-- Full-screen overlays -->
+<div id="modal" class="modal" hidden><div class="seq slow" id="modalSeq"></div><button class="close" id="modalClose">✕</button></div>
+<div id="toast" class="toast" hidden></div>
+<button id="musicFab" class="fab" hidden aria-label="Music">♪</button>
+
+<audio id="song" src="audio/our-song.mp3" preload="none" loop></audio>
+<audio id="voice" src="audio/voice-message.mp3" preload="none"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
